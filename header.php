@@ -12,7 +12,7 @@
   <meta name="description" content="<?php echo description; ?>">
   <!-- ページ独自のtitleを読み込ませる -->
   <meta name="keywords" content="BAUS,バウス,大倉山,東急東横線,日本土地建物,日土地,新築一戸建,分譲一戸建" />
-  <title>a
+  <title>
     <?php echo title; ?>｜閑静な邸宅地に敷地形状が整った2階建て低層戸建て。｜日本土地建物の新築一戸建</title>
   <!-- js -->
   <script type="text/javascript" src="common/js/jquery-1.11.3.min.js"></script>
