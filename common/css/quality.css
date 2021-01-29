@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+.head_img {
+    position: relative;
+    width: 100%;
+}
+
+.head_img img {
+    width: 100%;
+}
+.cap_rw {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-size: 10px;
+    line-height: 140%;
+    padding: 2px 5px 0 0;
+    text-align: right;
+	background: #fff;
+}
+
+.sub_ttl {
+    font-size: 22px;
+    line-height: 2.2;
+    font-weight: 300;
+}
+.ttl01 {
+    margin: 0 auto 30px;
+}
+.bg_wh p {
+    font-size: 14px;
+    line-height: 2.4;
+    letter-spacing: 0.08em;
+	text-align: center;
+}
+
+.bg_wh {
+    background: #fff;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.container{
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+.container h3{
+	letter-spacing: 0.08em;
+    line-height: 1.4;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.container h3 span{
+	font-size:18px;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.quality-btn li{
+    background: #000;
+    color: #FFFFFF;
+    width: 19.5%;
+    padding: 10px;
+	text-align: center;
+}
+.quality-btn li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	
+}
+.quality-btn li:hover{
+	background:#ccc;
+}
+
+
+#kitchen,#structure{
+	margin-top: 20px;
+}
+.quality_column ul{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+.quality_column li{
+    width: 24%;
+	padding: 0 0  2%;
+}
+
+.comfort_box{
+	    border: 1px solid #000;
+    padding: 3% 4%;
+    margin-bottom: 30px;
+}
+.comfort_box .w50{
+	width: 48%;
+	margin-bottom: 2%;
+	
+}
+.security_box .security_tit{
+	font-size: 23px;
+    padding-bottom: 10px;
+    margin: 20px auto 20px;
+    border-bottom: 1px solid #000;
+	text-align: left;
+}
+.security_box ul{
+	padding: 0;
+}
+.security_box li{
+		display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+.security_box li:nth-child(2){
+	width: 59%;
+}
+
+.security_box li .notice{
+	font-size: 12px;
+	line-height: 1.2;
+	text-align: left;
+	margin-top: 10px;
+}
+.security_box .security_tit02{
+	font-size: 18px;
+	text-align: left;
+}
+.security_box .caption{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-size: 10px;
+    padding:0;
+    text-align: right;
+	line-height: 1.2;
+	margin-top: 5px;
+}
+.flex .w50 p{
+	text-align:left;
+	font-size: 12px;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+}
+.w50{
+	width:50%;
+}
+.w50 li{
+	width: 50%;
+}
+.security_box,
+.security_box02{
+	margin-bottom: 30px;
+}
+.security_box02 ul,
+dd .caption{
+	padding: 0;
+}
+.structure_columnArea{
+	margin-bottom: 30px;
+}
+.structure_columnArea ul{
+	padding: 0;
+}
+
+.structure_column01{
+	width: 65.4%;
+	margin: 0 auto;
+}
+.structure_column02{
+width:  30.8%;
+	}
+.structure_column01 ul{
+	padding: 0;
+}
+
+/*PCのみ*/
+@media screen and (min-width: 768px) {}
+
+/*スマホ*/
+@media screen and (max-width: 767px) {
+
+    .bg_wh {
+        text-align: left;
+    }
+	.bg_wh .catch{
+		padding: 40px;
+	}
+	.bg_wh p{
+		text-align: left;
+	}
+
+
+	.security_box02 .w50 li{
+		width: 100%;
+	}
+	.security_box02 .flex ul{
+		width: 48%;
+	}
+	.security_box02 div.w50{
+		width: 100%;
+		margin-bottom: 2%;
+	}
+	.security_box li{
+		display: block;
+		width: 100%;
+	}
+	.security_box li:nth-child(2){
+		width: 100%;
+	}
+	.structure_column01,
+	.structure_column02{
+		width:  100%;
+	}
+
+	.notice{
+		margin-bottom: 10px;
+	}
+	.bg_wh .ta-l{
+		padding: 0;
+	}
+.sub_ttl {
+    font-size: 3vw;
+}
+
+}
+#quality h3{
+	background: #595649;
+    padding: 5px 10px;
+    color: #fff;
+}
+.quality_column dt{
+	    font-weight: bold;
+    font-size: 16px;
+    padding: 2% 0;
+}
+.quality_column{
+	margin: 0 0 3%;
+}
+.quality_column dt span{
+	display: block;
+}
+
+
+@media screen and (max-width:768px) {
+.quality_column ul{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+.quality_column li{
+    width: 48%;
+	padding: 0 0  2%;
+}
+}
+
+

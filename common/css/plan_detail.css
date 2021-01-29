@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+.head_img {
+    position: relative;
+    width: 100%;
+}
+
+.head_img img {
+    width: 100%;
+}
+
+.plan_copy {
+    color: #4a2024;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 28px;
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 5px #ffffff, 0px 0px 5px #ffffff;
+    line-height: 1.9;
+    font-weight: 500;
+}
+
+.bg_gr {
+    background: #003034;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.bg_gr p {
+    font-size: 14px;
+    line-height: 2.4;
+    letter-spacing: 0.08em;
+}
+
+.flex {
+    display: flex;
+}
+
+.point_img {
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+}
+
+.bg_wh {
+    background: #fff;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.link_bnr {
+    padding: 10px;
+}
+
+.maison {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.maison a {
+    width: 100%;
+}
+
+.center img {
+    margin: 0 auto;
+
+}
+
+.center .plan_img01 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+	width: auto;
+}
+
+.center .plan_img02 {
+    margin-bottom: 50px;
+}
+
+
+.blackWrapper {
+    padding-bottom: 1px;
+}
+
+.btnArea {
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.btnArea a {
+    display: block;
+}
+.btnArea img{
+	width: auto;
+}
+.center h3{
+	text-align: center;
+}
+
+
+/*PCのみ*/
+
+@media screen and (min-width: 768px) {}
+
+/*スマホ*/
+
+@media only screen and (max-width: 767px) {
+
+    .bg_wh {
+        padding-top: 20px;
+    }
+
+    .center .plan_img01 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .center .plan_img02 {
+        margin-bottom: 40px;
+    }
+
+    .btnArea {
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .btnArea img {
+        width: 160px;
+        height: auto;
+    }
+	.center h3{
+		margin-bottom: 20px;
+	}
+
+
+}
+
+/*タブレット*/
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+    .plan_copy {
+        color: #4a2024;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 20px;
+    }
+}
+
+/*印刷設定*/
+
+@media print {
+    .pc {
+        display: block !important;
+    }
+
+    .flex-nav,
+    .gnav-ul,
+    .sp,
+    .footer-nav,
+    .btnArea {
+        display: none !important;
+    }
+
+    .blackWrapper {
+        background: #fff !important;
+    }
+
+    .bg_wh {
+        padding-top: 0;
+    }
+
+}
+
+.plan_img03{
+	width: auto;
+}

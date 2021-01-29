@@ -1,0 +1,101 @@
+<?php
+define("cssinc" ,"login");
+define("description" ,"バウスガーデン大倉山ID 公式サイト。東急東横線「大倉山」駅徒歩11分。個性的な30邸が奏でる美邸街区「バウスガーデン大倉山」");
+define("login" ,"login_on");
+define("title" ,"物件エントリー者様限定サイト｜【公式】バウスガーデン大倉山ID");
+?>
+<!-- ヘッダー共通部分 読み込み--> <?php include(dirname(__FILE__).'/header.php'); ?>
+<!-- ヘッダー共通部分 読み込み END -->
+<!-- CONTENTS -->
+<script language="JavaScript"><!--
+function check()
+{
+	str = document.myFORM.PW.value;
+	if (str == "baus0980") jpURL = "gentei/index.html"; else jpURL = "err.html";
+	location.href = jpURL;
+}
+// --></script>
+
+<div class="titleArea">
+  <h2><span class="sub_ttl">物件エントリー者様限定サイト</span></h2>
+</div>
+<div class="titleLine ttl01"></div>
+
+<div class="bg_wh">
+  <div class="container">	
+<div class="loginWrap">
+	<p style="color: red;">パスワードが無効です。再度入力しなおなしてください。</p>
+
+						<section id="login_area">
+
+						<div class="login_area_pass">
+
+							<form name="myFORM" id="loginForm" method="post">
+
+								<input name="PW" type="password" id="password" size="50" placeholder="パスワードをご入力ください">
+<input id="login-btn" class="sendBtn" type="button" value="ログイン" onClick="check()">
+
+							</form>
+
+						</div>
+							<p class="gofumei">ご不明点がありましたら、<br class="pc_none">フリーダイヤルでお問い合わせください。</p>
+</div>
+<style>
+	.gofumei{
+		font-size: 120%!important;
+	}
+	.pc_none{
+		display: none;
+	}
+@media screen and (max-width:768px) {
+.gofumei{
+		font-size: 110%!important;
+	}
+	.pc_none{
+		display: inline;
+	}
+}
+	</style>
+	  </div>
+</div>
+</div>
+<!-- /.CONTENTS -->
+<!-- /.blackWrapper -->
+<!--
+<div class="container">
+  <div class="caption">※掲載の完成予想CGは、計画段階の図面を基に描き起こしたもので、形状・色彩・植栽等は実際とは異なります。なお、外観形状細部・設備機器等は表現しておりません。また、表現されている植栽は竣工から初期育成期間を経たものを想定して描いております。施工上の理由および改良のため、変更になる場合がありますので、ご了承ください。</div>
+</div>-->
+<script type="text/javascript">
+  $(window).on('load resize', function () {
+    var width = $(window).width();
+    var border = 768;
+    if (width < border) {
+      $(".toggleImg").each(function () {
+        $(this).attr("src", $(this).attr("src").replace("_pc", "_sp"));
+      })
+    } else {
+      $(".toggleImg").each(function () {
+        $(this).attr("src", $(this).attr("src").replace("_sp", "_pc"));
+      })
+    }
+  });
+  $(window).on('load resize', function () {
+    var width = $(window).width();
+    var border = 768;
+    if (width < border) {
+      $(".toggleImg li span").each(function (e) {
+        var bg = $(this).css('background-image');
+        bg = bg.replace("_pc", "_sp");
+        $(this).css('background-image', bg);
+      })
+    } else {
+      $(".toggleImg li span").each(function (e) {
+        var bg = $(this).css('background-image');
+        bg = bg.replace("_sp", "_pc");
+        $(this).css('background-image', bg);
+      })
+    }
+  });
+</script>
+<!-- フッター共通部分 --> <?php include("footer.php"); ?> <?php include("footer_geda.php"); ?>
+<!-- フッター共通部分 END-->

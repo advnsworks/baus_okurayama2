@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+.container{
+	margin-bottom:5%;
+}
+
+.outlineTitle{
+	width:800px;
+	margin:0 auto;
+	color:#fff;
+}
+
+table.outline {
+	font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	width: 800px;
+	margin: 5px auto 0;
+	border-collapse: collapse;
+	
+}
+
+table.outline th {
+	width: 230px;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 1px solid #e5d8b2;
+	padding: 15px;
+	background-color: #434343;
+	color: #fff;
+}
+
+table.outline td {
+	width: 570px;
+	text-align: left;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 1px solid #e5d8b2;
+	border-left: 0;
+	padding: 15px 32px;
+	color: #fff;
+}
+
+
+
+.outline-cap {
+	font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	width:800px;
+	margin:0 auto;
+	color:#fff;
+}
+
+.outline-cap p{
+	font-size:11px;
+}
+
+.titleLine{
+	height: 4px;
+	margin: 10px auto 30px;
+	width: 1000px;
+    border-image-slice: 1;
+	background: rgba(34,2,11,1);
+background: -moz-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,2,11,1)), color-stop(2%, rgba(54,8,16,1)), color-stop(46%, rgba(245,246,212,1)), color-stop(50%, rgba(255,255,249,1)), color-stop(54%, rgba(245,246,212,1)), color-stop(98%, rgba(54,8,16,1)), color-stop(100%, rgba(34,2,11,1)));
+background: -webkit-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+background: -o-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+background: -ms-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+background: linear-gradient(to right, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22020b', endColorstr='#22020b', GradientType=1 );
+}
+
+.titleArea{
+	color: #fff;
+	letter-spacing: 0.1em;
+		
+}
+
+@media (max-width: 767px){
+	.titleLine{
+		width: 100%;
+	}	
+	
+.outlineTitle,.outline-cap {
+	font-size: 12px;
+	width: 100%;
+	margin: 20px auto 0;
+}
+	
+	
+.outline-cap {
+	font-size: 12px;
+	width: 100%;
+	margin:0 auto;
+	padding: 0 15px;
+}
+	
+	
+	
+table.outline {
+	margin: 20px auto 0;
+}
+	
+table.outline,
+table.outline tbody,
+table.outline th,
+table.outline td,
+table.outline tr{
+	display: block;
+	width: 100%;
+}
+table.outline th {
+	padding: 5px;
+	border: none;
+}
+table.outline td {
+	border: none;
+	padding: 8px;
+}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}/*消さない*/
+
+
+
+
+
+
+
+

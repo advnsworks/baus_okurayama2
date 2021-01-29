@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.head_img {
+    position: relative;
+    width: 100%;
+}
+
+.head_img img {
+    width: 100%;
+}
+
+.sub_ttl {
+    font-size: 24px;
+    line-height: 2.2;
+    font-weight: 300;
+}
+.ttl01 {
+    margin: 0 auto 30px;
+}
+.bg_wh p {
+    font-size: 1.45rem;
+    line-height: 2.4;
+    letter-spacing: 0.08em;
+}
+
+.bg_wh {
+    background: #fff;
+    width: 100%;
+    padding-top: 40px;
+	text-align: center;
+}
+
+.container{
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+.container h3{
+	text-align: center;
+}
+
+.ta-l{
+	text-align: left;
+}
+.center{
+	margin: 20px auto;
+}
+.notice{
+	text-align: left;
+	font-size: 11px;
+	line-height: 160%;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/*PCのみ*/
+@media screen and (min-width: 768px) {}
+
+/*スマホ*/
+@media screen and (max-width: 767px) {
+
+    .bg_wh {
+		padding: 0;
+        text-align: left;
+    }
+	.bg_wh p{
+		padding: 20px;
+		line-height: 1.8!important;
+	}
+	.container .sp li{
+		margin-bottom: 3%;
+	}
+	.notice{
+		margin-bottom: 10px;
+	}
+	.bg_wh .ta-l{
+		padding: 0;
+	}
+.sub_ttl {
+    font-size: 3vw;
+}
+
+}
+
+.rosenzu{
+	width: auto;
+}
+
+.kuruma{
+	width: auto;
+	margin: 20px 0 0 ;
+
+}
+@media screen and (max-width: 767px) {
+	.container{
+	padding-top: 10px;
+}
+	}

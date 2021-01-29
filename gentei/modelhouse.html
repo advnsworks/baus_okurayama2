@@ -1,0 +1,120 @@
+<?php
+define("cssinc" ,"modelhouse");
+define("description" ,"バウスガーデン大倉山ID 公式サイト。東急東横線「大倉山」駅徒歩11分。個性的な30邸が奏でる美邸街区「バウスガーデン大倉山」");
+define("gnav_modelhouse" ,"gnav_modelhouse_on");
+define("title" ,"MODELHOUSE｜【公式】バウスガーデン大倉山ID");
+?>
+<!-- ヘッダー共通部分 読み込み--> <?php include(dirname(__FILE__).'/header.php'); ?>
+<!-- ヘッダー共通部分 読み込み END -->
+<!-- CONTENTS -->
+<!--slick.js-->
+<link rel="stylesheet" href="common/css/slick.css" media="screen" />
+<link rel="stylesheet" href="common/css/slick-theme.css" media="screen" />
+<!--slick.js-->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="common/js/slick.min.js"></script>
+<script>
+    $(function() {
+        var slider = "#slider"; // スライダー
+        var thumbnailItem = "#thumbnail-list .thumbnail-item"; // サムネイル画像アイテム
+
+        // サムネイル画像アイテムに data-index でindex番号を付与
+        $(thumbnailItem).each(function() {
+            var index = $(thumbnailItem).index(this);
+            $(this).attr("data-index", index);
+        });
+
+        // スライダー初期化後、カレントのサムネイル画像にクラス「thumbnail-current」を付ける
+        // 「slickスライダー作成」の前にこの記述は書いてください。
+        $(slider).on('init', function(slick) {
+            var index = $(".slide-item.slick-slide.slick-current").attr("data-slick-index");
+            $(thumbnailItem + '[data-index="' + index + '"]').addClass("thumbnail-current");
+        });
+
+        //slickスライダー初期化
+        $(slider).slick({
+            autoplay: true,
+            arrows: false,
+            fade: true,
+            infinite: false //これはつけましょう。
+        });
+        //サムネイル画像アイテムをクリックしたときにスライダー切り替え
+        $(thumbnailItem).on('click', function() {
+            var index = $(this).attr("data-index");
+            $(slider).slick("slickGoTo", index, false);
+        });
+
+        //サムネイル画像のカレントを切り替え
+        $(slider).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+            $(thumbnailItem).each(function() {
+                $(this).removeClass("thumbnail-current");
+            });
+            $(thumbnailItem + '[data-index="' + nextSlide + '"]').addClass("thumbnail-current");
+        });
+    });
+</script>
+
+<div class="titleArea">
+  <h2>MODELHOUSE<br><span class="sub_ttl">家族の寛ぎのひとときを深める、ゆとりある空間。</span></h2>
+</div>
+<div class="titleLine ttl01"></div>
+<div class="bg_gr">
+<p>家族それぞれの寛ぎを深めるために居住空間のテーマに据えたのは、「家族がつながるビッグリビング」という考え方。<br>
+絆を深めながらも、思い思いの時間を過ごせる、包容力のある空間。優雅で美しいインテリアと共に、落ち着きある時間が流れます。<br>
+</p>
+</div>
+
+
+
+<div class="bg_wh">
+  <div class="container">
+ 
+        <section class="kv_area">
+            <div id="wrap">
+              <ul id="slider" class="hidden-print">
+                <li class="slide-item"><img src="images/modelhouse/mh_01.jpg"></li>
+                <li class="slide-item"><img src="images/modelhouse/mh_02.jpg"></li>
+                <li class="slide-item"><img src="images/modelhouse/mh_03.jpg"></li>
+                <li class="slide-item"><img src="images/modelhouse/mh_04.jpg"></li>
+                <li class="slide-item"><img src="images/modelhouse/mh_05.jpg"></li>
+                <li class="slide-item"><img src="images/modelhouse/mh_06.jpg"></li>
+				<li class="slide-item"><img src="images/modelhouse/mh_07.jpg"></li>
+				<li class="slide-item"><img src="images/modelhouse/mh_08.jpg"></li>
+				<li class="slide-item"><img src="images/modelhouse/mh_09.jpg"></li>
+				<li class="slide-item"><img src="images/modelhouse/mh_10.jpg"></li>
+				<li class="slide-item"><img src="images/modelhouse/mh_11.jpg"></li>
+              </ul>
+			
+              <ul id="thumbnail-list">
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_01.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_02.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_03.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_04.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_05.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_06.jpg"></li>
+				<li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_07.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_08.jpg"></li>
+                <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_09.jpg"></li>
+				  <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_10.jpg"></li>
+				  <li class="thumbnail-item"><img src="images/modelhouse/thumb_mh_11.jpg"></li>
+				  <li class="thumbnail-item"></li>
+              </ul>
+            </div>
+        </section>
+
+  </div>
+	
+
+
+</div>
+</div>
+<!-- /.CONTENTS -->
+<!-- /.blackWrapper -->
+
+<div class="container">
+  <div style="margin: 30px 0 0 0;" class="caption">※掲載の写真はモデルハウス2号棟を撮影（2020年9月）したものです。家具・調度品等は販売価格に含まれません。予めご了承ください。設備・仕様の色や形状は、住戸により異なります。詳しくは係員までお問い合わせください。</div>
+</div>
+<!-- フッター共通部分 --> <?php include("footer.php"); ?> <?php include("footer_geda.php"); ?>
+<!-- フッター共通部分 END-->

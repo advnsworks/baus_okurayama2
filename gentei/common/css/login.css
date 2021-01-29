@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.bg_wh {
+    background: #fff;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.loginWrap {
+    border: solid #fff 1px;
+    background: #003034;
+    padding: 8% 5% 5%;
+    box-shadow: 0 0 10px #333333;
+}
+.loginWrap p{
+	color: #fff;
+    font-size: 24px;
+    text-align: center;
+	line-height: 1.2;
+}
+
+.login_area_pass{
+	max-width: 700px;
+	margin: 0 auto 50px;
+}
+#login_area form {
+    margin: 40px 0 0;
+}
+#login_area form input[type=password] {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 14px;
+    background: #fff;
+    border: none;
+}
+#login-btn {
+	display: inline-block;
+	vertical-align: top;
+    width: 154px;
+    color: #fff;
+	background: #019e97;
+    border: none;
+    font-size: 14px;
+	margin: 0 10px;
+    padding: 24px;
+	cursor: pointer;
+	transition: .3s all ease-in-out;
+}
+#login-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+@media screen and (max-width: 767px) {
+	
+
+#login_area form input[type=password] {
+    margin-bottom: 20px;
+}
+
+#login_area form input[type=password] {
+    width: 95%;
+	border-radius: inherit;
+}
+	.sub_ttl {
+    font-size: 4vw;
+}
+	
+	
+}

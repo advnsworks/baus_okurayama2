@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+.titleLine {
+    height: 4px;
+    margin: 10px auto 30px;
+    width: 1000px;
+    border-image-slice: 1;
+    background: rgba(34,2,11,1);
+    background: -moz-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,2,11,1)), color-stop(2%, rgba(54,8,16,1)), color-stop(46%, rgba(245,246,212,1)), color-stop(50%, rgba(255,255,249,1)), color-stop(54%, rgba(245,246,212,1)), color-stop(98%, rgba(54,8,16,1)), color-stop(100%, rgba(34,2,11,1)));
+    background: -webkit-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+    background: -o-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+    background: -ms-linear-gradient(left, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+    background: linear-gradient(to right, rgba(34,2,11,1) 0%, rgba(54,8,16,1) 2%, rgba(245,246,212,1) 46%, rgba(255,255,249,1) 50%, rgba(245,246,212,1) 54%, rgba(54,8,16,1) 98%, rgba(34,2,11,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22020b', endColorstr='#22020b', GradientType=1 );
+}
+
+.outline{
+	width: 100%;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.container table tr {
+    border-top: solid 1px #ccc;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.container table th, table td {
+    padding: 10px 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.container table th, table td {
+    padding: 10px 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.container table th {
+    width: 230px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1px solid #e5d8b2;
+    padding: 15px;
+    background-color: #434343;
+    color: #fff;
+}
+
+
+.container table td {
+    width: 570px;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1px solid #e5d8b2;
+    padding: 15px;
+    color: #fff;
+}
+
+.container .outlineTitle {
+	color: white;
+	margin-top: 35px;
+	margin-bottom: 13px;
+}
+
+span {
+	color: white;
+}
+
+span p {
+	margin-top: 53px;
+}
+
