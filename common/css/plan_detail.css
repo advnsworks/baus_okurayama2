@@ -150,6 +150,16 @@
 /*印刷設定*/
 
 @media print {
+	.center .plan_img01{
+		margin: 0 auto;
+	}
+	.foot-flex img{
+		width: 70%;
+	}
+	.plan_img03{
+		width: 60%!important;
+	}
+	
     .pc {
         display: block !important;
     }
