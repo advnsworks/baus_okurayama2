@@ -148,8 +148,12 @@
 }
 
 /*印刷設定*/
-
+	
 @media print {
+	.printnon{
+		display: none;
+	}
+	
 	.center .plan_img01{
 		margin: 0 auto;
 	}
