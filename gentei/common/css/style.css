@@ -167,13 +167,22 @@ h1 {
 .header-hnav li {
   position: relative;
   float: left;
-  width: 150px;
+/*  width: 150px;*/
   margin-left: 1px;
   margin-right: 5px;
 }
 
 .header-hnav li a {
   display: block;
+}
+
+.navtext{
+    padding-right: 20px;
+	top : 10px;
+}
+
+.navtext a {
+	    color: #FFFFFF;
 }
 
 
