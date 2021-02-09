@@ -158,8 +158,8 @@
               <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">
                 <img src="images/raijyo_btn_off.png" alt="来場予約" /> </a>
             </li>
-		          <li>
-              <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">
+		    <li>
+              <a href="#" target="_blank">
                 <img src="images/online_btn_off.png" alt="オンライン予約" /> </a>
             </li>
           </ul>
