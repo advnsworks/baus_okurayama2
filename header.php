@@ -112,7 +112,7 @@
   <link rel="stylesheet" href="common/css/<?php echo cssinc; ?>.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="common/css/layerBoard.css">
   <link rel="stylesheet" type="text/css" href="common/css/flexslider.css">
-  
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176429020-1"></script>
 <script>
@@ -138,13 +138,13 @@
         </div>
         <div class="header-hnav">
           <ul>
-            <li class="hnav_li">
-              <a href="outline.html" target="_blank">
-                <img src="images/outline_off.jpg" alt="物件概要" /> </a>
+            <li class="hnav_li navtext">
+              <a href="outline.html" target="_blank"><i class="fas fa-angle-right"></i> 物件概要
+                <!--<img src="images/outline_off.jpg" alt="物件概要" />--> </a>
             </li>
-            <li>
-              <a href="map.html" target="_blank">
-                <img src="images/map_off.jpg" alt="現地案内図" /> </a>
+            <li class="navtext">
+              <a href="map.html" target="_blank"><i class="fas fa-angle-right"></i> 現地案内図
+                <!--<img src="images/map_off.jpg" alt="現地案内図" />--> </a>
             </li>
 			  <li>
               <a href="login.html" target="_blank">
@@ -157,6 +157,10 @@
           <li>
               <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">
                 <img src="images/raijyo_btn_off.png" alt="来場予約" /> </a>
+            </li>
+		    <li>
+              <a href="#" target="_blank">
+                <img src="images/online_btn_off.png" alt="オンライン予約" /> </a>
             </li>
           </ul>
         </div>
