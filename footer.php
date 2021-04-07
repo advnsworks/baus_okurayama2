@@ -94,7 +94,7 @@
 		</div>
 	</div>
 </div>
-<address> Copyright NIPPON TOCHI-TATEMONO Co.,Ltd. All Rights Reserved. </address>
+<address> Copyright Chuo-Nittochi Co., Ltd. All Rights Reserved. </address>
 <!-- /.footer -->
 <!-- PC pagetop -->
 <!--<div class="pc">
