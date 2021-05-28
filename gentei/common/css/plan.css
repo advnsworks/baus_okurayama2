@@ -61,6 +61,7 @@
 .maison {
     margin-top: 30px;
     margin-bottom: 40px;
+	justify-content: center;
 }
 
 
@@ -98,7 +99,7 @@
         text-align: left;
     }
 	.maison a{
-		width: 50%;
+		width: 100%;
 	}
 }
 
