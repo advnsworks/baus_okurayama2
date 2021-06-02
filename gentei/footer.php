@@ -57,10 +57,10 @@
 			<a href="https://www.baus-web.jp/form/contact/index.php?id=2363" target="_blank">物件エントリー</a>
 		</li>
 -->
-		<li style="width: 50%;">
+<!--		<li style="width: 50%;">
             <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">来場予約</a>
           </li>
-		
+		-->
 <!--
 		<li>
 			<a href="login.html" target="_blank">物件エントリー者様限定サイト</a>
@@ -109,7 +109,7 @@
 	</div>
 </div>-->
 <!-- SP fixfooter -->
-<div class="sp_footerfixArea sp">
+<!--<div class="sp_footerfixArea sp">
 	<ul class="flex-ul">
 		<li>
 			<a href="tel:0120170980">
@@ -122,7 +122,7 @@
 		
 		
 	</ul>
-</div>
+</div>-->
 
 
 <script type="text/javascript">

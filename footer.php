@@ -7,13 +7,13 @@
 		<a href="location.html"><img src="images/f_location.png" alt="LOCATION"/></a> ｜
 		<a href="access.html"><img src="images/f_access.png" alt="ACCESS"/></a> ｜
 		<a href="plan.html"><img src="images/f_plan.png" alt="PLAN"/></a> ｜
-		<a href="modelhouse.html" class="nolink"><img src="images/f_modelhouse.png" alt="MODEL HOUSE"/></a> ｜
-		<a href="quality.html" class="nolink"><img src="images/f_quality.png" alt="QUALITY"/></a> ｜
+		<a href="modelhouse.html"><img src="images/f_modelhouse.png" alt="MODEL HOUSE"/></a> ｜
+		<a href="quality.html"><img src="images/f_quality.png" alt="QUALITY"/></a> ｜
 		<a href="https://www.baus-web.jp/owners/" target="_blank"><img src="images/f_brand.png" alt="BRAND"/></a>
-		<!-- ｜
+		 ｜
 		<a href="map/map.html" target="_blank">現地案内図</a> ｜
 		<a href="outline/outline.html" target="_blank">物件概要</a> ｜
-		<a href="https://www.baus-web.jp/reserve/form-bg-miyazakidai/" target="_blank">来場予約</a> ｜
+<!--		<a href="https://www.baus-web.jp/reserve/form-bg-miyazakidai/" target="_blank">来場予約</a> ｜
 		<a href="https://www.baus-web.jp/form/contact/index.php?id=2345" target="_blank">資料請求</a>-->
 	</p>
 </div>
@@ -38,10 +38,10 @@
 			<a href="plan.html">PLAN</a>
 		</li>
 		<li>
-			<a href="modelhouse.html" class="nolink">MODEL HOUSE</a>
+			<a href="modelhouse.html">MODEL HOUSE</a>
 		</li>
 		<li>
-			<a href="quality.html" class="nolink">QUALITY</a>
+			<a href="quality.html">QUALITY</a>
 		</li>
 		<li>
 			<a href="https://www.baus-web.jp/owners/" target="_blank">BRAND</a>
@@ -52,7 +52,7 @@
 		<li>
 			<a href="outline.html" target="_blank">物件概要</a>
 		</li>
-		<li>
+<!--		<li>
 			<a href="https://www.baus-web.jp/form/contact/index.php?id=2363" target="_blank">物件エントリー</a>
 		</li>
 		<li style="width: 100%; border-bottom: 0;">
@@ -60,7 +60,7 @@
           </li>
 		<li>
 			<a href="login.html" target="_blank">物件エントリー者様限定サイト</a>
-		</li>
+		</li>-->
 	</ul>
 	<p class="clear"></p>
 </div>
@@ -104,7 +104,7 @@
 	</div>
 </div>-->
 <!-- SP fixfooter -->
-<div class="sp_footerfixArea sp">
+<!--<div class="sp_footerfixArea sp">
 	<ul class="flex-ul">
 		<li>
 			<a href="tel:0120170980">
@@ -125,7 +125,7 @@
 		
 		
 	</ul>
-</div>
+</div>-->
 
 
 <script type="text/javascript">

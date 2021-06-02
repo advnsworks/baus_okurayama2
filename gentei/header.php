@@ -159,14 +159,14 @@
                 <img src="images/entry_btn_off.jpg" alt="物件エントリー" /> </a>
             </li>
 -->
-          <li>
+<!--          <li>
               <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">
                 <img src="images/raijyo_btn_off.png" alt="来場予約" /> </a>
             </li>
 			  <li>
               <a href="https://book.air-dam.com/okurayama" target="_blank">
                 <img src="images/online_btn_off.png" alt="オンライン予約" /> </a>
-            </li>
+            </li>-->
           </ul>
         </div>
         <p class="clear"></p>
@@ -205,7 +205,7 @@
               </li>
               <li>
                 <a href="quality.html">
-                  <img src="images/<?php echo gnav_quality; ?>.png" alt="QUALITY" class="roll" /> </a>
+					<img src="images/<?php echo gnav_quality; ?>.png" alt="QUALITY" class="roll" /> </a>
               </li>
               <li>
                 <a href="https://www.baus-web.jp/owners/" target="_blank">
@@ -272,12 +272,12 @@
 			<li style="border-left: 1px solid #666;">
             <a href="https://www.baus-web.jp/form/contact/index.php?id=2363" target="_blank">物件エントリー</a>
           </li>
--->
+
 		<li style="width: 50%;">
             <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">来場予約</a>
           </li>
 		
-<!--
+
 			<li>
             <a href="login.html" target="_blank">物件エントリー者様限定サイト</a>
           </li>

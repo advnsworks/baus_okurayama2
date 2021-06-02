@@ -146,22 +146,22 @@
               <a href="map.html" target="_blank"><i class="fas fa-angle-right"></i> 現地案内図
                 <!--<img src="images/map_off.jpg" alt="現地案内図" />--> </a>
             </li>
-			  <li>
+<!--			  <li>
               <a href="login.html" target="_blank">
                 <img src="images/login_btn_off.png" width="160" height="80" alt="物件エントリー者様限定サイト" /> </a>
             </li>
             <li>
               <a href="https://www.baus-web.jp/form/contact/index.php?id=2363" target="_blank">
                 <img src="images/entry_btn_off.jpg" alt="物件エントリー" /> </a>
-            </li>
-          <li>
+            </li>-->
+<!--          <li>
               <a href="https://www.baus-web.jp/reserve/form-bg-okurayama/" target="_blank">
                 <img src="images/raijyo_btn_off.png" alt="来場予約" /> </a>
-            </li>
-		    <li>
+            </li>-->
+<!--		    <li>
               <a href="https://book.air-dam.com/okurayama" target="_blank">
                 <img src="images/online_btn_off.png" alt="オンライン予約" /> </a>
-            </li>
+            </li>-->
           </ul>
         </div>
         <p class="clear"></p>
@@ -195,12 +195,12 @@
                   <img src="images/<?php echo gnav_plan; ?>.png" alt="PLAN" class="roll" /> </a>
               </li>
               <li>
-                <a href="modelhouse.html" class="nolink">
-                  <img style="opacity: 1;" src="images/<?php echo gnav_modelhouse; ?>.png" alt="MODEL HOUSE" class="roll" /> </a>
+                <a href="modelhouse.html">
+                  <img src="images/<?php echo gnav_modelhouse; ?>.png" alt="MODEL HOUSE" class="roll" /> </a>
               </li>
               <li>
-                <a href="quality.html" class="nolink">
-                  <img style="opacity: 1;" src="images/<?php echo gnav_quality; ?>.png" alt="QUALITY" class="roll" /> </a>
+                <a href="quality.html">
+                  <img src="images/<?php echo gnav_quality; ?>.png" alt="QUALITY" class="roll" /> </a>
               </li>
               <li>
                 <a href="https://www.baus-web.jp/owners/" target="_blank">
@@ -249,10 +249,10 @@
             <a href="plan.html">PLAN</a>
           </li>
           <li>
-            <a href="modelhouse.html" class="nolink">MODEL HOUSE</a>
+            <a href="modelhouse.html">MODEL HOUSE</a>
           </li>
           <li>
-            <a href="quality.html" class="nolink">QUALITY</a>
+            <a href="quality.html">QUALITY</a>
           </li>
           <li class="nav-br">
             <a href="https://www.baus-web.jp/owners/" target="_blank">BRAND</a>
@@ -263,7 +263,7 @@
           <li>
             <a href="outline.html" target="_blank">物件概要</a>
           </li>
-          <li>
+<!--          <li>
             <a href="https://www.baus-web.jp/form/contact/index.php?id=2363" target="_blank">物件エントリー</a>
           </li>
 		<li style="width: 100%;">
@@ -271,7 +271,7 @@
           </li>
 			<li>
             <a href="login.html" target="_blank">物件エントリー者様限定サイト</a>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
