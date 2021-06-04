@@ -8,6 +8,20 @@ define("title" ,"QUALITY｜【公式】バウスガーデン大倉山ID");
 <?php include(dirname(__FILE__).'/header.php'); ?>
 <!-- ヘッダー共通部分 読み込み END -->
 <!-- CONTENTS -->
+<style>
+	dt,dd{
+	letter-spacing: 0!important;
+	}
+
+	@media screen and (max-width:768px) {
+		dt{
+	letter-spacing: -1.5px!important;
+	}
+dd{
+	letter-spacing: 0!important;
+	}
+}
+</style>
 <div id="quality">
 <div class="titleArea">
   <h2>QUALITY<br>
@@ -206,19 +220,23 @@ define("title" ,"QUALITY｜【公式】バウスガーデン大倉山ID");
               </dl>
             </li>
 			  
-			 <li><img src="images/quality/security_b.jpg" alt="カザスプラス">
-              <dl>
-                <dt>カザスプラス</dt>
-                <dd>普段お使いのおサイフケータイ®対応機能やカードを玄関のカギとして活用可能。ボタンを押して、"かざす"だけで施解錠できます。</dd>
-              </dl>
+			 <li class="kazasu">
+				 <img src="images/quality/kazasu.png" alt="カザスプラス">
+              
             </li>
+			  <style>
+				  .quality_column li.kazasu{
+					  width: 50%;
+				  }
+			  @media screen and (max-width:768px) {
+.quality_column li.kazasu{
+					  width: 100%;
+				  }
+}
+
 			  
-			 <li><img src="images/quality/security_a.jpg" alt="カザスプラス">
-              <dl>
-                <dt>カザスプラス</dt>
-                <dd>電池式なので、停電時も問題なく使えます。万が一、電池がなくなっても、手動キーでカギを開けることもできるので、入れなくなる心配はありません。</dd>
-              </dl>
-            </li>
+			  </style>
+			 
 			  
           </ul>
         </div>
